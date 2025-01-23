@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class GET_BDDStyleTestNG {
         @Test
-        public void test_GET_BDDStyleTestNG_Negaive(){
+        public void test_GET_BDDStyleTestNG_Negaive1(){
             String pincode3 = "-1";
             RestAssured.given()
                     .baseUri("https://api.zippopotam.us")
@@ -14,7 +14,7 @@ public class GET_BDDStyleTestNG {
                     .then().log().all().statusCode(404);
         }
         @Test
-        public void test_GET_BDDStyleTestNG_Postive(){
+        public void test_GET_BDDStyleTestNG_Postive1(){
             String pincode4 = "573129";
             RestAssured.given()
                     .baseUri("https://api.zippopotam.us")
