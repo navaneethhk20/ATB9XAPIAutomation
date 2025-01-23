@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Navaneeth H K/IdeaProjects/ATB9XAPIAutomation">
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <exclude name="ta"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.ATB9XAPI.ex03_SampleTestngExamples.GropingTestng02">
+            </class>
+        </classes>
+    </test>
+</suite>
