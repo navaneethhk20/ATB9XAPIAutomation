@@ -1,4 +1,4 @@
-package org.ATB9XAPI.ex02_RestAssuredBasics.GET.POST;
+package org.ATB9XAPI.ex02_RestAssuredBasics.POST;
 
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;

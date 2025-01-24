@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Navaneeth H K/IdeaProjects/ATB9XAPIAutomation">
         <classes>
-            <class name="org.ATB9XAPI.ex02_RestAssuredBasics.GET.GET.GET_NonBDDStyleTestNGReusableVariable">
+            <class name="GET.org.ATB9XAPI.ex02_RestAssuredBasics.GET_NonBDDStyleTestNGReusableVariable">
                 <methods>
                     <include name="test_GET_NonBDDStyleTestNG_Negaive"/>
                     <include name="test_GET_NonBDDStyleTestNG_Negaive2"/>
@@ -11,7 +11,7 @@
                     <include name="test_GET_NonBDDStyleTestNG_Positive"/>
                 </methods>
             </class>
-            <class name="org.ATB9XAPI.ex02_RestAssuredBasics.GET.GET.GET_NonBDDStyleTestNG">
+            <class name="GET.org.ATB9XAPI.ex02_RestAssuredBasics.GET_NonBDDStyleTestNG">
                 <methods>
                     <include name="test_GET_NonBDDStyleTestNG_Negaive"/>
                     <include name="test_GET_NonBDDStyleTestNG_Positive"/>

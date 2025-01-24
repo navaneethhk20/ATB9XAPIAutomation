@@ -1,4 +1,4 @@
-package org.ATB9XAPI.ex02_RestAssuredBasics.GET.GET;
+package org.ATB9XAPI.ex02_RestAssuredBasics.GET;
 
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
