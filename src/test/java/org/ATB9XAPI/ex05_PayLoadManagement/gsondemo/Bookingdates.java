@@ -1,10 +1,8 @@
-package org.ATB9XAPI.ex05_PayLoadManagement.GSON;
+package org.ATB9XAPI.ex05_PayLoadManagement.gsondemo;
 
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-public class BookingDates {
-
 
 
     public class Bookingdates {
@@ -32,5 +30,5 @@ public class BookingDates {
             this.checkout = checkout;
         }
 
+
     }
-}
